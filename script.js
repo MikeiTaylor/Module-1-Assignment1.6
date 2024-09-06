@@ -11,10 +11,5 @@ const Hp = 1000; //Global
 
 
 {let value=200;} //Block
-value=value - 50;
-console.log("How can we use console log on a webpage?");
-console.log(life);
-console.log(box);
-console.log(name);
-console.log(checkout);
-console.log(Hp-200=);
+
+console.log("How will we use console log in a webpage?");
