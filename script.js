@@ -3,13 +3,23 @@
 var life= 100; //This is my life bar, Global
 life=life - 10;
 life=life / 10;
-var name="Michael"; //This is the STRING, Global
+
 var checkout= false; //BOOLEAN, Global
 var box = null; // Global
 
-const Hp = 1000; //Global
+function logger() {
+	const name="Michael"; //This is a block scope
+	console.log("How will we use console log in a webpage?");
+	console.log("Will our webpage work on mobile devices?");
+	console.log("What is this function minly used for?");
+}
 
+console.log(name);
 
 {let value=200;} //Block
 
-console.log("How will we use console log in a webpage?");
+function adder(num1,num2){
+	console.log(num1 + num2);
+}
+adder(7, 6); 
+
