@@ -23,3 +23,6 @@ function adder(num1,num2){
 }
 adder(7, 6); 
 
+const toUpper = () => {
+	"Michael Taylor's Assignment"
+}
