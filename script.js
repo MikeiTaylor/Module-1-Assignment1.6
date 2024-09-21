@@ -3,7 +3,7 @@
 const hp=100;
 
 if(hp > 75) {
-console.log(“Looking good feeling good!”);
+console.log(“Looking good feeling great”);
 } else if (hp < 50) {
 console.log(“Not feeling so well”);
 } else{
