@@ -1,28 +1,19 @@
 // JavaScript source code
 
-var life= 100; //This is my life bar, Global
-life=life - 10;
-life=life / 10;
+const hp=100;
 
-var checkout= false; //BOOLEAN, Global
-var box = null; // Global
-
-function logger() {
-	const name="Michael"; //This is a block scope
-	console.log("How will we use console log in a webpage?");
-	console.log("Will our webpage work on mobile devices?");
-	console.log("What is this function minly used for?");
+if(hp > 75) {
+console.log(“Looking good feeling good!”);
+} else if (hp < 50) {
+console.log(“Not feeling so well”);
+} else{
+console.log(“Got to be a little more careful”);
 }
 
-console.log(name);
+//Normally//
 
-{let value=200;} //Block
+const name = “Michael”;
+const age = 23;
 
-function adder(num1,num2){
-	console.log(num1 + num2);
-}
-adder(7, 6); 
+console.log(“ Hey there, I’m ” + name + “ and I’m” + age + “ years old.”;
 
-const toUpper = () => {
-	"Michael Taylor's Assignment"
-}
